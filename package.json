@@ -1,0 +1,19 @@
+{
+  "name": "devops-app",
+  "version": "1.0.0",
+  "description": "\"Devops roadmap 2024-2025 Demo\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "author": "\"Mostafa Nabil\"",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
