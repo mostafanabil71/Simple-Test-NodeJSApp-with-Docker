@@ -5,7 +5,7 @@ const app = express();
 const router = express.Router();
 
 const path = __dirname + '/views/';
-const port = 8080;
+const port = 80;
 
 //This section of the file also sets a couple of constants, path and port:
 //So, lets set the routes for the application using the router object:
