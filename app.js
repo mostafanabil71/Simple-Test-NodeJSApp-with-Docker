@@ -5,7 +5,7 @@ const app = express();
 const router = express.Router();
 
 const path = __dirname + '/views/';
-const port = 80;
+const port = 4000;
 
 //This section of the file also sets a couple of constants, path and port:
 //So, lets set the routes for the application using the router object:
@@ -28,6 +28,6 @@ app.use(express.static(path));
 app.use('/', router);
 
 app.listen(port, function () {
-  console.log('app is listening on port 8080!')
+  console.log('app is listening on port 4000!')
 })
 
