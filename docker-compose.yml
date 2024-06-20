@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   simple-test-nodejs-with-docker:
+    image: mostafanabil71/test-container
     build: .
     container_name: test-app-container
     ports:
